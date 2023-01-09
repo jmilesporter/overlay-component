@@ -3,6 +3,8 @@
 	import { lyrics } from '../stores/OverlayStore.js';
 	import { loading } from '../stores/OverlayStore.js';
 
+	let additionalVar = '';
+
 	export let data;
 	const apiKey = data.key;
 
